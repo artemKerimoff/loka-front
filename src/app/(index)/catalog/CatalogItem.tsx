@@ -11,7 +11,7 @@ export function CatalogItem({ item }: { item: IItem }) {
         <div className="bg-[#FFFCF7] rounded-2xl p-4 flex flex-col gap-3 transition-shadow hover:shadow-lg cursor-pointer">
             {/* Контейнер с изображением */}
             <div className="bg-white rounded-xl flex items-center justify-center p-4 aspect-square">
-          <Link href="/model.html">
+          <Link href="https://dm09092004.github.io/M/">
             <Image
               src={item.imageUrls[0]}
               alt={item.title}
