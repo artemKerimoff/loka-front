@@ -11,14 +11,16 @@ export function CatalogItem({ item }: { item: IItem }) {
         <div className="bg-[#FFFCF7] rounded-2xl p-4 flex flex-col gap-3 transition-shadow hover:shadow-lg cursor-pointer">
             {/* Контейнер с изображением */}
             <div className="bg-white rounded-xl flex items-center justify-center p-4 aspect-square">
-                <Image
-                    src={item.imageUrls[0]}
-                    alt={item.title}
-                    width={250}
-                    height={250}
-                    className="object-contain w-full h-full"
-                />
-            </div>
+          <Link href="/model.html">
+            <Image
+              src={item.imageUrls[0]}
+              alt={item.title}
+              width={250}
+              height={250}
+              className="object-contain w-full h-full"
+            />
+          </Link>
+        </div>
 
             {/* Контейнер с информацией */}
             <div>
